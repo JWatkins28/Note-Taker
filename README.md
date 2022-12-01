@@ -8,6 +8,8 @@ One of the requirements was to have a unique ID generate for each note. I utiliz
 
 There was also a "bonus" to make the delete functionality work. This is working in my project and the .js file is notated with how this works.
 
+Deployed Application: [Note Taker App](https://gentle-springs-55610.herokuapp.com/)
+
 ---
 
 ## **Table of Contents**
@@ -30,6 +32,8 @@ There was also a "bonus" to make the delete functionality work. This is working 
 
 ![Screenshot of Site](./public/assets/Screenshot.PNG)
 
+Deployed Application: [Note Taker App](https://gentle-springs-55610.herokuapp.com/)
+
 ---
 
 ## **Installation**
@@ -49,6 +53,8 @@ This project can be used to take notes and store todo items in a clean and easy 
 ```
 npm start
 ```
+
+Deployed Application: [Note Taker App](https://gentle-springs-55610.herokuapp.com/)
 
 ---
 
