@@ -4,7 +4,7 @@ const path = require('path');
 const api = require('./routes/index.js');
 
 // SETTING PORT AND WHAT APP IS
-const PORT = 3001;
+const PORT = process.env.PORT || 3001;
 const app = express();
 
 // SETTING SOME EXPRESS FUNCTIONALITY UP
@@ -22,6 +22,11 @@ app.get('/', (req, res) =>
 app.get('/notes', (req, res) =>
     res.sendFile(path.join(__dirname, '/public/notes.html'))
 );
+
+// WILDCARD GET (SENDS BACK TO HOME PAGE)
+app.get('*', (req, res) =>
+    res.sendFile(path.join(__dirname, '/public/index.html'))
+)
 
 // CONFIRM PORT LISTENING
 app.listen(PORT, () =>
