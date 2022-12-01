@@ -1,3 +1,4 @@
+// THIS FILE IS USED FOR EASILY READING/WRITING TO FILES USING THE CREATED FUNCTIONS
 const fs = require('fs');
 const util = require('util');
 
